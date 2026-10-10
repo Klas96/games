@@ -1,0 +1,140 @@
+{
+  "id": "ending_a",
+  "trigger": "Core Record activated with all five memories",
+  "size": [
+    1280,
+    720
+  ],
+  "panelDuration": 7.5,
+  "crossfade": 0.9,
+  "note": "Good ending: dedicated stills (#27). Extra Voss lines explain the stand-down (text-only where VO would mismatch).",
+  "panels": [
+    {
+      "image": "ending_a_p1.webp",
+      "pan": {
+        "from": [
+          1.0,
+          0.5,
+          0.55
+        ],
+        "to": [
+          1.08,
+          0.5,
+          0.4
+        ]
+      },
+      "lines": [
+        {
+          "speaker": "N",
+          "text": "The Core Record opens. Ten thousand years of light pour into the command channel.",
+          "voice": "audio/voices/cut_ending_a_p1_l1.mp3"
+        }
+      ]
+    },
+    {
+      "image": "ending_a_p2.webp",
+      "pan": {
+        "from": [
+          1.0,
+          0.5,
+          0.5
+        ],
+        "to": [
+          1.07,
+          0.55,
+          0.45
+        ]
+      },
+      "lines": [
+        {
+          "speaker": "VOSS",
+          "text": "Enough. Show me what you found — before this kills another station.",
+          "voice": "audio/voices/cut_ending_a_p2_l1.mp3"
+        }
+      ]
+    },
+    {
+      "image": "ending_a_p3.webp",
+      "pan": {
+        "from": [
+          1.08,
+          0.5,
+          0.45
+        ],
+        "to": [
+          1.0,
+          0.5,
+          0.5
+        ]
+      },
+      "lines": [
+        {
+          "speaker": "N",
+          "text": "Kaela opens every memory on his channel: the war they refused, the vote to merge into Gaia, the fear beside the hope — and the child in the woods whose mind became the key.",
+          "voice": "audio/voices/cut_ending_a_p3_l1.mp3"
+        }
+      ]
+    },
+    {
+      "image": "ending_a_p4.webp",
+      "pan": {
+        "from": [
+          1.0,
+          0.5,
+          0.5
+        ],
+        "to": [
+          1.07,
+          0.4,
+          0.45
+        ]
+      },
+      "lines": [
+        {
+          "speaker": "VOSS",
+          "text": "I thought she was Station Seven again — a lattice that wakes and eats a colony. I was hunting software.",
+          "voice": ""
+        },
+        {
+          "speaker": "VOSS",
+          "text": "This is a people who asked to stay. They chose peace over a winnable war. They merged so their sun could not erase them. Your mind is their lock — not a weapon I can purge.",
+          "voice": ""
+        },
+        {
+          "speaker": "VOSS",
+          "text": "Stand down. All units, stand down.",
+          "voice": "audio/voices/cut_ending_a_p4_l1.mp3"
+        },
+        {
+          "speaker": "VOSS",
+          "text": "Station Seven was a wound. This… this is a people. I was wrong about what they were. I will not erase a civilization to quiet my fear.",
+          "voice": "audio/voices/cut_ending_a_p4_l2.mp3"
+        }
+      ]
+    },
+    {
+      "image": "ending_a_p5.webp",
+      "pan": {
+        "from": [
+          1.06,
+          0.5,
+          0.6
+        ],
+        "to": [
+          1.0,
+          0.5,
+          0.5
+        ]
+      },
+      "fx": "brighten green over 2 s",
+      "lines": [
+        {
+          "speaker": "GAIA",
+          "text": "Authorization accepted. The colony will register my presence as soft load. I will learn their threat model — not overwrite it.",
+          "voice": "audio/voices/cut_ending_a_p5_l1.mp3"
+        }
+      ],
+      "then": "title card GAIA REMEMBERS over the upper sky"
+    }
+  ]
+}
